@@ -1,0 +1,63 @@
+.nav-bar {
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.logo-bar {
+    border-bottom: 1px solid rgb(171, 171, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-bar .gs-logo {
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.menu-bar {
+    border-bottom: 1px solid rgb(171, 171, 171);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-bar ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu-bar li {
+    float: left;
+    padding: 1%;
+}
+
+.menu-bar li:hover {
+    background-color: rgb(20, 20, 21);
+}
+
+.menu-bar ul li a {
+    color: rgb(171, 171, 171);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-bar .active-class {
+    color: rgb(64, 224, 208);
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-bar li {
+        padding: 2%;
+    }
+}
