@@ -1,6 +1,6 @@
 # galaxy-sounds
 
-Advertising some of my classmates' Capstone Project! **Check it out at [galaxysounds.ca](http://galaxysounds.ca/ "http://galaxysounds.ca/")**.<br />
+Advertising some of my classmates' Capstone Project! **Check it out at [galaxysounds.ca](https://galaxysounds.ca/ "https://galaxysounds.ca/")**.<br />
 
 .<br />
 .<br />
