@@ -60,4 +60,8 @@
     .menu-bar li {
         padding: 2%;
     }
+
+    .logo-bar .gs-logo {
+        width: 90%;
+    }
 }
