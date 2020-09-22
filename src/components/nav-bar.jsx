@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className="nav-bar">
       <div className="logo-bar">
-        <img className="gs-logo" src="GalaxySoundsLogo.png" alt="Galaxy Sounds Logo" onClick={() => history.push("/")}></img>
+        <img className="gs-logo" src="logo-black.png" alt="Galaxy Sounds Logo" onClick={() => history.push("/")}></img>
       </div>
       <div className="menu-bar">
         <ul>

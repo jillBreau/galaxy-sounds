@@ -12,16 +12,16 @@ const WhoWeAre = () => {
       <div className="employee-info">
         <h4>Brett Heistinger</h4>
         <p>
-          Hello, my name is Brett Heistinger and I am one of the co-founders of Galaxy Sounds.
+          Hello, my name is Brett Heistinger and I am one of the <span className="no-wrap">co-founders</span> of Galaxy Sounds.
           I'm currently a Hardware Designer, providing electrical and mechanical solutions to our products.
-          Being able to develop solutions to fellow musicians has been a dream of mine for a while
+          Being able to develop solutions for fellow musicians has been a dream of mine for a while
           and I can't put into words how excited I am for Galaxy Sounds. Actually, you could say I'm over the moon about it...
         </p>
       </div>
     </div>
     <div className="employee-section">
       <div className="img-container">
-        <img src="hiscock.jpg" alt="Matthew Hiscock"></img>
+        <img src="matthew.jpg" alt="Matthew Hiscock"></img>
       </div>
       <div className="employee-info">
         <h4>Matthew Hiscock</h4>
@@ -34,40 +34,40 @@ const WhoWeAre = () => {
     </div>
     <div className="employee-section">
       <div className="img-container">
-        <img src="man.png" alt="Jake Miller"></img>
+        <img src="jake.png" alt="Jake Miller"></img>
       </div>
       <div className="employee-info">
         <h4>Jake Miller</h4>
         <p>
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
+          Hey! My name is Jake Miller I am a <span className="no-wrap">co-founder</span> and Hardware Designer here at Galaxy Sounds.
+          My main role is electrical and mechanical design support on our products during all phases of their development.
+          I am really excited for Galaxy Sounds because we have a great team and we are going to make some really cool stuff.
         </p>
       </div>
     </div>
     <div className="employee-section">
       <div className="img-container">
-        <img src="man.png" alt="Matthew Hickey"></img>
+        <img src="matt.png" alt="Matt Hickey"></img>
       </div>
       <div className="employee-info">
-        <h4>Matthew Hickey</h4>
+        <h4>Matt Hickey</h4>
         <p>
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
+          Hey, I’m Matt Hickey, a software developer for Galaxy Sounds.
+          My responsibility is primarily frontend development, providing users with an elegant and intuitive interface to program their board the way they want.
+          Looking forward to bringing an affordable yet powerful product to music enthusiasts everywhere!
         </p>
       </div>
     </div>
     <div className="employee-section">
       <div className="img-container">
-        <img src="man.png" alt="Nathaniel Johnson"></img>
+        <img src="nathaniel.jpg" alt="Nathaniel Johnson"></img>
       </div>
       <div className="employee-info">
         <h4>Nathaniel Johnson</h4>
         <p>
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
-          Blurb, blurb, blurb blurby blurb blurb, blurb blurb blurb blurb blurb! Blurb blurb blurb blurb blurb!
+          Hello, my name is Nathaniel Johnson and I am a software developer for Galaxy Sounds.
+          I will be working mostly with the frontend and backend to ensure our customers can easily edit and create their sounds through the internet.
+          The sky is the limit for what is possible with our Galaxy pedal!
         </p>
       </div>
     </div>
