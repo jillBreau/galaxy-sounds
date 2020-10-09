@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import StarfieldAnimation from 'react-starfield-animation'
 import NavBar from './components/nav-bar';
+import FooterBar from './components/footer-bar';
 import Home from './components/home';
 import WhoWeAre from './components/who-we-are';
 import Survey from './components/survey';
@@ -41,6 +42,9 @@ const App = () => {
           </Switch>
         </div>
       </section>
+      <footer>
+        <FooterBar />
+      </footer>
     </div>
   </Router>
   )
