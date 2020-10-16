@@ -10,6 +10,7 @@ import FooterBar from './components/footer-bar';
 import Home from './components/home';
 import WhoWeAre from './components/who-we-are';
 import Survey from './components/survey';
+import Gallery from './components/gallery';
 import './App.css';
 
 const App = () => {
@@ -35,6 +36,9 @@ const App = () => {
             </Route>
             <Route path="/survey">
               <Survey />
+            </Route>
+            <Route path="/gallery">
+              <Gallery />
             </Route>
             <Route path="/">
               <Home />

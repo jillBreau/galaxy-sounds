@@ -17,7 +17,7 @@
 }
 
 .logo-bar .gs-logo {
-    width: 360px;
+    width: 330px;
     padding: 15px;
     cursor: pointer;
 }
@@ -61,6 +61,6 @@
     }
 
     .logo-bar .gs-logo {
-        width: 90%;
+        max-width: 90%;
     }
 }

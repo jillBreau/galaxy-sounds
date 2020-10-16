@@ -1,0 +1,31 @@
+.asteroid-logo {
+    width: 90%;
+    max-width: 850px;
+}
+
+.asteroid-logo img {
+    width: 100%;
+}
+
+.asteroid-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.asteroid-gallery img {
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.asteroid-logo-icon {
+    width: 100%;
+}
+
+.asteroid-logo-icon img {
+    width: 15%;
+    min-width: 50px;
+    margin-top: 30px;
+}
