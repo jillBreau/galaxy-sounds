@@ -10,7 +10,7 @@
     left: 0;
     padding: 10px 0px;
     border-top: 1px solid rgb(171, 171, 171);
-    z-index: 2;
+    z-index: 4;
 }
 
 .footer-bar .social-media-container {
@@ -36,7 +36,7 @@
     margin: 0px 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
     .footer-bar p {
         display: none;
     }

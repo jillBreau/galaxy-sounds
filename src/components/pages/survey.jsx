@@ -4,6 +4,7 @@ import './survey.css';
 const Survey = () => {
   return (
     <div className="contents-block">
+      <h1>Our Survey</h1>
       <p>
         To ensure we haven't overlooked the things that matter to you, we're looking for your input to ensure our <span className="no-wrap">multi-effects</span> pedal actually does kick ass.
       </p>

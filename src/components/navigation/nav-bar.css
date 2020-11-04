@@ -6,7 +6,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 4;
 }
 
 .logo-bar {
@@ -30,6 +30,7 @@
 }
 
 .menu-bar ul {
+    display: block;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -55,9 +56,28 @@
     color: rgb(64, 224, 208);
 }
 
-@media only screen and (max-width: 600px) {
+.menu-bar .menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 450px) {
+    .menu-bar ul {
+        display: none;
+    }
+
     .menu-bar li {
-        padding: 2%;
+        padding: 3%;
+    }
+
+    .menu-bar .menu-icon {
+        display: block;
+        cursor: pointer;
+        color: rgb(171, 171, 171);
+        margin: 6px 12px;
+    }
+
+    .menu-bar .menu-icon:hover {
+        color: rgb(64, 224, 208);
     }
 
     .logo-bar .gs-logo {

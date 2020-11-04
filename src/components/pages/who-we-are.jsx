@@ -4,7 +4,7 @@ import './who-we-are.css';
 const WhoWeAre = () => {
   return (
   <div className="contents-block">
-    <h2>Meet the Galaxy Sounds Team</h2>
+    <h1 className="who-we-are-heading">Meet the Galaxy Sounds Team</h1>
     <div className="employee-section">
       <div className="img-container">
         <img src="brett.png" alt="Brett Heistinger"></img>

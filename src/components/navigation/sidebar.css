@@ -1,0 +1,87 @@
+.sidebar {
+    width: 30vw;
+    min-width: 160px;
+    height: 100vh;
+    border-radius: 0px 0px 40px 0px;
+    overflow-y: hidden;
+    background: #F5EEEF;
+    position: absolute;
+}
+
+.sidebar-content {
+    z-index: 3;
+    background: rgb(18, 18, 18);
+    width: 30vw;
+    min-width: 160px;
+    height: 100%;
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+}
+
+.sidebar-content .links {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar-content .exit-sidebar {
+    color: rgb(171, 171, 171);
+    margin-top: 0;
+    margin-right: 10px;
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.sidebar-content .exit-sidebar:hover {
+    color: rgb(64, 224, 208);
+}
+
+.sidebar-content a {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 20px);
+    color: rgb(171, 171, 171);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.sidebar-content a:hover {
+    background-color: rgb(40, 40, 41);
+}
+
+.sidebar-content .active-class {
+    color: rgb(64, 224, 208);
+}
+
+.sidebar-content .icon {
+    margin-right: 6px;
+}
+
+.sidebar .backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    overflow-y: hidden;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 450px) {
+    .sidebar-content {
+        padding-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .sidebar-content {
+        padding-top: 180px;
+    }
+}

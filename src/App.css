@@ -14,6 +14,7 @@
   justify-content: flex-start;
   font-size: 24px;
   color: rgb(171, 171, 171);
+  position: absolute;
 }
 
 .contents-block {
@@ -39,8 +40,14 @@ p {
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
   .App-router {
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .contents-block {
+    margin-top: 210px;
   }
 }

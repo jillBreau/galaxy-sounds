@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   HashRouter as Router,
   Switch,
@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import StarfieldAnimation from 'react-starfield-animation'
 import NavBar from './components/navigation/nav-bar';
+import Sidebar from './components/navigation/sidebar';
 import FooterBar from './components/navigation/footer-bar';
 import Home from './components/pages/home';
 import WhoWeAre from './components/pages/who-we-are';
@@ -14,22 +15,24 @@ import Gallery from './components/pages/gallery';
 import './App.css';
 
 const App = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
   <Router>
     <div className="App">
-      <StarfieldAnimation
-        depth={5000}
-        style={{
-          position: 'absolute',
-          width: '100%',
-          height: '100%'
-        }}
-      />
       <header>
-        <NavBar />
+        <NavBar toggleSidebar={setSidebarOpen} sidebarIsOpen={sidebarOpen}/>
       </header>
       <section>
         <div className="App-router">
+        <StarfieldAnimation
+          depth={5000}
+          style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%'
+          }}
+        />
           <Switch>
             <Route path="/who-we-are">
               <WhoWeAre />
@@ -46,6 +49,9 @@ const App = () => {
           </Switch>
         </div>
       </section>
+      <header>
+        <Sidebar toggleSidebar={setSidebarOpen} isOpen={sidebarOpen}/>
+      </header>
       <footer>
         <FooterBar />
       </footer>
