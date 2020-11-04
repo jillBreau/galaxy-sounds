@@ -4,7 +4,6 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import StarfieldAnimation from 'react-starfield-animation'
 import NavBar from './components/navigation/nav-bar';
 import Sidebar from './components/navigation/sidebar';
 import FooterBar from './components/navigation/footer-bar';
@@ -25,14 +24,6 @@ const App = () => {
       </header>
       <section>
         <div className="App-router">
-        <StarfieldAnimation
-          depth={5000}
-          style={{
-            position: 'absolute',
-            width: '100%',
-            height: '100%'
-          }}
-        />
           <Switch>
             <Route path="/who-we-are">
               <WhoWeAre />
