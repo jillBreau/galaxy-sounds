@@ -5,12 +5,12 @@ import {
   Route,
 } from 'react-router-dom';
 import StarfieldAnimation from 'react-starfield-animation'
-import NavBar from './components/nav-bar';
-import FooterBar from './components/footer-bar';
-import Home from './components/home';
-import WhoWeAre from './components/who-we-are';
-import Survey from './components/survey';
-import Gallery from './components/gallery';
+import NavBar from './components/navigation/nav-bar';
+import FooterBar from './components/navigation/footer-bar';
+import Home from './components/pages/home';
+import WhoWeAre from './components/pages/who-we-are';
+import Survey from './components/pages/survey';
+import Gallery from './components/pages/gallery';
 import './App.css';
 
 const App = () => {

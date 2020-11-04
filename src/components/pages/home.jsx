@@ -14,7 +14,7 @@ const Home = () => {
         We're based on Earth, more specifically, St. John's, Newfoundland. We hope to create musical solutions that are intuitive and complement your play style.
       </p>
       <p>
-        Without further ado, we would like to announce our <span className="no-wrap">multi-effects</span> pedal, the <em>Asteroid</em>, "rock amongst the stars".
+        Without further ado, we would like to announce our <span className="no-wrap">multi-effects</span> pedal, the <em>Asteroid</em>, "rock among the stars".
         This pedal has unique features that we're REALLY excited about, but we can't go too into detail right now.
         If you would like to be on our mailing list, you can <span className="no-wrap">opt-in</span> at the end of our survey.
       </p>
