@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/galaxy-sounds/static/css/main.2d6db981.chunk.css",
+    "main.js": "/galaxy-sounds/static/js/main.baf489c5.chunk.js",
+    "main.js.map": "/galaxy-sounds/static/js/main.baf489c5.chunk.js.map",
+    "runtime-main.js": "/galaxy-sounds/static/js/runtime-main.c6a65b2d.js",
+    "runtime-main.js.map": "/galaxy-sounds/static/js/runtime-main.c6a65b2d.js.map",
+    "static/js/2.47244525.chunk.js": "/galaxy-sounds/static/js/2.47244525.chunk.js",
+    "static/js/2.47244525.chunk.js.map": "/galaxy-sounds/static/js/2.47244525.chunk.js.map",
+    "index.html": "/galaxy-sounds/index.html",
+    "precache-manifest.407551d06400a5026b0f27bc4b398a61.js": "/galaxy-sounds/precache-manifest.407551d06400a5026b0f27bc4b398a61.js",
+    "service-worker.js": "/galaxy-sounds/service-worker.js",
+    "static/css/main.2d6db981.chunk.css.map": "/galaxy-sounds/static/css/main.2d6db981.chunk.css.map",
+    "static/js/2.47244525.chunk.js.LICENSE.txt": "/galaxy-sounds/static/js/2.47244525.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/galaxy-sounds/static/media/galaxy-background.e8625f7b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6a65b2d.js",
+    "static/js/2.47244525.chunk.js",
+    "static/css/main.2d6db981.chunk.css",
+    "static/js/main.baf489c5.chunk.js"
+  ]
+}
